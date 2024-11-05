@@ -3,7 +3,6 @@ import express from "express";
 import db from "./config/connection.js";
 import routes from "./routes/index.js";
 
-// comment
 await db();
 
 const PORT = process.env.PORT || 3001;
